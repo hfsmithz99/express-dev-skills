@@ -8,16 +8,7 @@
     <title>Skills</title>
 </head>
 <body>
-    <a href="/">Home</a>
-    <h1>Skills</h1>
-    <ul>
-        <% skills.forEach(function(s) { %>
-            <li>
-                <a href="/todos/<%= s.id %>"><%= s.skill %></a>
-                -
-                <%= s.skilled ? 'Skilled' : 'Not Skilled' %>
-            </li>
-      <%  }) %>
-    </ul>
+    <h3><%= skill.skill %></h3>
+    <h3>Skilled: <%= skill.skilled ? 'Yes' : 'No' %></h3>
 </body>
 </html>
