@@ -9,6 +9,7 @@ module.exports = {
     getAll,
     getOne
 }
+
 function getAll() {
     return skills;
 }
